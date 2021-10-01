@@ -7,19 +7,37 @@
     background-color:white;
     width: 100vw;
     height: 100vh;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
 }
 .box1{
-    background-color:#3E2D21;
+    background-color:#573F2E;
     height: 30%;
     width:30%;
 }
 .box2{
-    background-color:#FAEDED;
+    background-color:#3E2D21;
+    height: 30%;
+    width:70%;  
+}
+
+
+.box3{ background-color:#FAEDED;
     height: 70%;
     width:30%;    
-}
-.box3{
-    background-color:yellow;
-    height: 200px;
-    width:200px;    
-}
+    }
+  
+
+.box4{
+    background-color:#6A4021;
+    height: 40%;
+    width:70%;  
+   }
+
+.box5{
+    background-color:#3E2D21;
+    height: 30%;
+    width:70%;  
+   }
+
